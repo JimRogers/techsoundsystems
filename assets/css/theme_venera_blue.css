@@ -164,12 +164,12 @@ body {
   background-color: #ebf6fb;
 }
 a {
-  color: #588799;
+  color: #350D17;
   text-decoration: none;
 }
 a:hover {
-  color: #3c5c68;
-  text-decoration: underline;
+  color: #350D19;
+  text-decoration: none;
 }
 .img-rounded {
   -webkit-border-radius: 6px;
@@ -3413,8 +3413,8 @@ button.close {
   color: #545454;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   background-color: #e3e3e3;
-  background-image: -moz-linear-gradient(top, #ededed, #d4d4d4);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed), to(#d4d4d4));
+  background-image: -moz-linear-gradient(top, #ededed, #621B23);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed), to(#621B23));
   background-image: -webkit-linear-gradient(top, #ededed, #d4d4d4);
   background-image: -o-linear-gradient(top, #ededed, #d4d4d4);
   background-image: linear-gradient(to bottom, #ededed, #d4d4d4);
@@ -7087,6 +7087,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 .slider-w .item {
   height: 440px;
   padding-top: 50px;
+  background: #343838 url(../images/photos/home_1.jpg) top left repeat;
 }
 /* line 638, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .slider-w .sub-screenshot {
@@ -7699,7 +7700,7 @@ table.no-margin {
 }
 /* line 1105, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .pre-footer .footer-logo a {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
   color: #c4c7be;
   text-transform: uppercase;
@@ -8656,8 +8657,8 @@ form.bs-docs-example {
 /* Area over the footer */
 /* line 171, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer {
-  background: #008C9E;
-  border-top: 10px solid #007585;
+  background: #343838 url(../images/slider-noise-black-bg.jpg) top left repeat;
+  border-top: 10px solid #621B23;
   /* Footer logo styles */
   /* Company Address information */
   /* Header of a section in footer */
@@ -8672,8 +8673,8 @@ form.bs-docs-example {
 }
 /* line 181, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-logo a {
-  color: #c4c7be;
-  border-bottom: 5px solid #007585;
+  color: #fff;
+  border-bottom: 5px solid #621B23;
 }
 /* line 185, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-logo strong {
@@ -8685,11 +8686,11 @@ form.bs-docs-example {
 }
 /* line 193, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer ul.footer-address li strong {
-  color: #c9d3cd;
+  color: #350D17;
 }
 /* line 199, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-header {
-  border-bottom: 5px solid #007585;
+  border-bottom: 5px solid #621B23;
   color: #fff;
 }
 /* line 204, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
@@ -8704,8 +8705,8 @@ form.bs-docs-example {
 /* Deep footer */
 /* line 214, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .deep-footer {
-  background-color: #005f6b;
-  border-top: 2px solid #004852;
+  background-color: #621B23;
+  border-top: 2px solid #350D13;
   /* Copyright information */
   /* Footer links */
 }
