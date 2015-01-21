@@ -160,8 +160,10 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
-  color: #005f6b;
-  background-color: #ebf6fb;
+  color: #350D17;
+  background-color: #efeedf;
+  background-image:url(../images/pattern.png);
+  background-repeat:repeat;
 }
 a {
   color: #350D17;
@@ -8561,20 +8563,20 @@ form.bs-docs-example {
 }
 /* line 98, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .section-wrapper .section-header {
-  border-bottom: 3px solid #daeef8;
-  -webkit-box-shadow: 0px 1px 0px #abd9ee;
-  -moz-box-shadow: 0px 1px 0px #abd9ee;
-  box-shadow: 0px 1px 0px #abd9ee;
-  color: #005f6b;
+  border-bottom: 3px solid #CA979E;
+  -webkit-box-shadow: 0px 1px 0px #350D13;
+  -moz-box-shadow: 0px 1px 0px #350D13;
+  box-shadow: 0px 1px 0px #350D13;
+  color: #350D17
 }
 
 /* White shadowed block */
 /* line 107, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .white-card {
   background-color: #fff;
-  -webkit-box-shadow: 0px 1px 4px 0px #9dc2dc, 2px 2px 1px 0px white inset;
-  -moz-box-shadow: 0px 1px 4px 0px #9dc2dc, 2px 2px 1px 0px white inset;
-  box-shadow: 0px 1px 4px 0px #9dc2dc, 2px 2px 1px 0px white inset;
+  -webkit-box-shadow: 0px 1px 4px 0px #2A2F32, 2px 2px 1px 0px white inset;
+  -moz-box-shadow: 0px 1px 4px 0px #2A2F32, 2px 2px 1px 0px white inset;
+  box-shadow: 0px 1px 4px 0px #2A2F32, 2px 2px 1px 0px white inset;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9fcfe), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#f9fcfe, #ffffff);
   background-image: -moz-linear-gradient(#f9fcfe, #ffffff);
@@ -9029,7 +9031,7 @@ form.bs-docs-example {
 }
 /* line 492, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .widget-filled.widget-yellow {
-  background-color: #fffde3;
+  background-color: #fff;
 }
 
 /* Widget with transparent background */
@@ -9059,7 +9061,7 @@ form.bs-docs-example {
 /* Styles for transparent forms */
 /* line 521, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .form-transparent input[type="text"], .form-transparent textarea {
-  border-color: #6cbde1;
+  border-color: #621B23;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
   -moz-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
