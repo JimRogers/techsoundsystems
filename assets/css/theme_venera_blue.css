@@ -160,7 +160,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
-  color: #350D17;
+  color: #1B624A;
   background-color: #efeedf;
   background-image:url(../images/pattern.png);
   background-repeat:repeat;
@@ -4542,7 +4542,7 @@ input[type="submit"].btn.btn-mini {
   font-weight: 400;
 }
 .navbar .brand img {
-  width:25%;
+  width:55%;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -4843,19 +4843,20 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 .navbar-inverse .navbar-inner {
-  background-color: #343838;
-  background-image: -moz-linear-gradient(top, #343838, #343838);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#343838), to(#343838));
-  background-image: -webkit-linear-gradient(top, #343838, #343838);
-  background-image: -o-linear-gradient(top, #343838, #343838);
-  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-color: #514d3e;
+  background-image: -moz-linear-gradient(top, #514d3e, #514d3e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#514d3e), to(#514d3e));
+  background-image: -webkit-linear-gradient(top, #514d3e, #514d3e);
+  background-image: -o-linear-gradient(top, #514d3e, #514d3e);
+  background-image: linear-gradient(to bottom, #514d3e, #514d3e);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff343838', endColorstr='#ff343838', GradientType=0);
-  border-color: #C4CDCD;
+  border-color: #19443E;
+  background: #343838 url(../images/slider-noise-black-bg.jpg) top left repeat;
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #414141;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar-inverse .brand:hover,
@@ -7044,7 +7045,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 .slider-header {
   text-align: center;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 2px 2px 0px #58807d;
@@ -7055,6 +7056,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
   -webkit-box-shadow: 0px 2px 0px #95b7b5;
   -moz-box-shadow: 0px 2px 0px #95b7b5;
   box-shadow: 0px 2px 0px #95b7b5;
+  letter-spacing: 0.1em;
 }
 /* line 612, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .slider-header strong {
@@ -7254,7 +7256,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 /* Can be used to separte sections of the website */
 /* line 764, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .section-wrapper {
-  padding-top: 30px;
+  padding-top: 130px;
   padding-bottom: 30px;
   /* Add a stripped background to a section */
   /* Area under a slider - adding a border to separate visually */
@@ -8567,11 +8569,11 @@ form.bs-docs-example {
 }
 /* line 98, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .section-wrapper .section-header {
-  border-bottom: 3px solid #CA979E;
+  border-bottom: 3px solid #1B624A;
   -webkit-box-shadow: 0px 1px 0px #350D13;
   -moz-box-shadow: 0px 1px 0px #350D13;
   box-shadow: 0px 1px 0px #350D13;
-  color: #350D17
+  color: #19443E;
 }
 
 /* White shadowed block */
@@ -9065,7 +9067,7 @@ form.bs-docs-example {
 /* Styles for transparent forms */
 /* line 521, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .form-transparent input[type="text"], .form-transparent textarea {
-  border-color: #621B23;
+  border-color: #1B624A;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
   -moz-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
@@ -9544,9 +9546,10 @@ form.bs-docs-example {
     height: 510px;
   }
   .slider-header {
-    font-size: 44px;
-    line-height: 56px;
-    padding-top: 90px;
+    font-size: 5em;
+    line-height: 1em;
+    padding-top: 250px;
+    text-align:left;
   }
   .single-post-w {
     padding: 30px 35px;
