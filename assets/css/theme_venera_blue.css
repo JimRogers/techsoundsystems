@@ -192,6 +192,18 @@ a:hover {
   -moz-border-radius: 500px;
   border-radius: 500px;
 }
+
+.about-text ul {
+  margin-top:70px;
+  margin-left:0px;
+}
+.about-text h4 {
+  margin-left:0px;
+  text-shadow: 1px 2px #FCFAF7, 3px 4px #484A4D;
+  font-size:3em !important;
+  margin-bottom:30px;
+  font-weight:400;
+}
 .row {
   margin-left: -20px;
   *zoom: 1;
@@ -7296,6 +7308,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 .section-wrapper .section-paragraph {
   font-size: 18px;
   line-height: 30px;
+  text-align:justify;
 }
 /* line 799, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .section-wrapper .section-action {
@@ -9169,6 +9182,12 @@ form.bs-docs-example {
 .visible-desktop-inline {
   display: inline !important;
 }
+
+
+
+
+
+
 @media (max-width: 1200px) {
   .hidden-not-big-desktop {
     display: none !important;
