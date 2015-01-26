@@ -7294,6 +7294,24 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
   /* Paragraph of a section with slightly larger font */
   /* Can be used as a wrapper of call to action button */
 }
+.section-wrapper.portfolio-gallery p {
+  padding-bottom:30px;
+  padding-top:30px;
+}
+
+.section-wrapper.portfolio-text {
+  padding-top:10px;
+  text-align:center;
+}
+.section-wrapper.portfolio-text ul {
+  list-style:none;
+  padding-left:0px;
+  margin-left:0px;
+}
+.section-wrapper.portfolio-text ul li {
+  display:inline-block;
+  padding:15px;
+}
 /* line 768, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .section-wrapper.stripped {
   background: transparent url(../images/stripped-bg.png) left top repeat;
