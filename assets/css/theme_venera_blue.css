@@ -194,6 +194,7 @@ a:hover {
 }
 
 .about-text ul {
+  list-style:none;
   margin-top:70px;
   margin-left:0px;
 }
