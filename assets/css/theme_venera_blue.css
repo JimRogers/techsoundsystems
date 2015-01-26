@@ -3248,14 +3248,14 @@ ul.icons li .icon-large:before {
 .dropdown-submenu:hover > a {
   text-decoration: none;
   color: #ffffff;
-  background-color: #5dc4dc;
+  background-color: #19443E;
 }
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: #333333;
   text-decoration: none;
   outline: 0;
-  background-color: #5dc4dc;
+  background-color: #19443E;
 }
 .dropdown-menu .disabled > a,
 .dropdown-menu .disabled > a:hover {
