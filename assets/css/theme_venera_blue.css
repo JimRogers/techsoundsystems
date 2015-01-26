@@ -193,6 +193,14 @@ a:hover {
   border-radius: 500px;
 }
 
+.introduction img {
+  -ms-transform: rotate(17deg); /* IE 9 */
+      -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+      transform: rotate(17deg);
+}
+.introduction h4 {
+  line-height:30px;
+}
 .about-text ul {
   list-style:none;
   margin-top:70px;
