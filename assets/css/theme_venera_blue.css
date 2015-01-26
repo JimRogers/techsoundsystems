@@ -7069,8 +7069,8 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
   color: #fff;
   text-shadow: 2px 2px 0px #58807d;
   margin: 0px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   border-bottom: 2px solid #5c8a87;
   -webkit-box-shadow: 0px 2px 0px #95b7b5;
   -moz-box-shadow: 0px 2px 0px #95b7b5;
@@ -7087,7 +7087,7 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 .slider-sub-header {
   color: #bdd3d2;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 24px;
   margin-top: 0px;
 }
@@ -7112,9 +7112,16 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
 }
 /* line 633, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .slider-w .item {
-  height: 440px;
-  padding-top: 50px;
+  padding-top: 0px;
+}
+.slide-image1 {
   background: #343838 url(../images/photos/home_1.jpg) top left repeat;
+}
+.slide-image2 {
+  background: #343838 url(../images/photos/Digico_SD9.jpg) top left repeat;
+}
+.item .container {
+  width:100%;
 }
 /* line 638, ../../../app/assets/stylesheets/theme_venera/main.css.scss */
 .slider-w .sub-screenshot {
@@ -9572,13 +9579,14 @@ form.bs-docs-example {
     padding-top: 15px;
   }
   .slider-w .item {
-    height: 510px;
   }
   .slider-header {
     font-size: 5em;
     line-height: 1em;
     padding-top: 250px;
     text-align:left;
+    padding-bottom: 50px;
+    padding-left: 50px;
   }
   .single-post-w {
     padding: 30px 35px;
