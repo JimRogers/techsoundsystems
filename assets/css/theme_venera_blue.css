@@ -160,7 +160,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
-  color: #2F8C6D;
+  color: #595B5C;
   background-color: #EAEFEA;
   background-image:url(../images/grain.png);
   background-repeat:repeat;
@@ -3257,7 +3257,7 @@ ul.icons li .icon-large:before {
 .dropdown-submenu:hover > a {
   text-decoration: none;
   color: #ffffff;
-  background-color: #19443E;
+  background-color: #96D5F4;
 }
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
@@ -4879,7 +4879,7 @@ input[type="submit"].btn.btn-mini {
   background-image: linear-gradient(to bottom, #514d3e, #514d3e);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff343838', endColorstr='#ff343838', GradientType=0);
-  border-color: #19443E;
+  border-color: #96D5F4;
   background: #343838 url(../images/slider-noise-black-bg.jpg) top left repeat;
 }
 .navbar-inverse .brand,
@@ -7133,6 +7133,11 @@ li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
   background-position: center;  
   background-size:100%;
 }
+.slide-image3 {
+  background: #343838 url(../images/photos/gallery2.png) top left repeat;
+  background-position: center;  
+  background-size:100%;
+}
 .item .container {
   width:100%;
 }
@@ -8730,7 +8735,7 @@ form.bs-docs-example {
 /* line 171, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer {
   background: #343838 url(../images/slider-noise-black-bg.jpg) top left repeat;
-  border-top: 10px solid #19443E;
+  border-top: 10px solid #96D5F4;
   /* Footer logo styles */
   /* Company Address information */
   /* Header of a section in footer */
@@ -8746,7 +8751,7 @@ form.bs-docs-example {
 /* line 181, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-logo a {
   color: #fff;
-  border-bottom: 5px solid #19443E;
+  border-bottom: 5px solid #96D5F4;
 }
 /* line 185, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-logo strong {
@@ -8758,11 +8763,11 @@ form.bs-docs-example {
 }
 /* line 193, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer ul.footer-address li strong {
-  color: #2F8C6D;
+  color: #96D5F4;
 }
 /* line 199, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .pre-footer .footer-header {
-  border-bottom: 5px solid #19443E;
+  border-bottom: 5px solid #96D5F4;
   color: #fff;
 }
 /* line 204, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
@@ -8777,8 +8782,8 @@ form.bs-docs-example {
 /* Deep footer */
 /* line 214, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .deep-footer {
-  background-color: #19443E;
-  border-top: 2px solid #19443E;
+  background-color: #3A484A;
+  border-top: 2px solid #96D5F4;
   /* Copyright information */
   /* Footer links */
 }
@@ -9131,7 +9136,7 @@ form.bs-docs-example {
 /* Styles for transparent forms */
 /* line 521, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .form-transparent input[type="text"], .form-transparent textarea {
-  border-color: #2F8C6D;
+  border-color: #96D5F4;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
   -moz-box-shadow: inset 1px 1px 2px 0px #ebf6fb;
