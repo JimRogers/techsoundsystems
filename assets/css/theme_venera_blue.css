@@ -10401,6 +10401,46 @@ form.bs-docs-example {
     padding-right: 10px;
   }
 }
+
+@media (max-width: 1200px) {
+  .slider-w .container {
+    height:100%;
+  }
+  .slider-w .item {
+    padding-top:0px;
+  }
+  .slider-w .slider-header {
+    font-size: 32px;
+    line-height: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 250px;
+    border-bottom: none;
+    box-shadow: none;
+  }
+  .slide-image1 {
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .slide-image2 {
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .slide-image3 {
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .slide-image4 {
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+}
+  
 @media (min-width: 980px) {
   body {
     padding-top: 72px;
