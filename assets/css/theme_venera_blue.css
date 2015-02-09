@@ -4909,7 +4909,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: #ffffff;
-  background-color: #282b2b;
+  background-color: #595B5C;
   -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
@@ -4927,7 +4927,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #282b2b;
+  background-color: #595B5C;
   color: #ffffff;
   -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
@@ -8793,7 +8793,7 @@ form.bs-docs-example {
 /* Deep footer */
 /* line 214, ../../../app/assets/stylesheets/theme_venera/blue.css.scss */
 .deep-footer {
-  background-color: #3A484A;
+  background-color: #252F30;
   border-top: 2px solid #96D5F4;
   /* Copyright information */
   /* Footer links */
