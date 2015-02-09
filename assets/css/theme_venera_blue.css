@@ -10176,6 +10176,42 @@ form.bs-docs-example {
   .carousel-caption {
     position: static;
   }
+  
+.slider-w .container {
+  height:100%;
+}
+.slider-w .item {
+  padding-top:0px;
+}
+.slider-w .slider-header {
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 250px;
+  border-bottom: none;
+  box-shadow: none;
+}
+.slide-image1 {
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.slide-image2 {
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.slide-image3 {
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.slide-image4 {
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 }
 @media (max-width: 979px) {
   body {
@@ -10256,7 +10292,7 @@ form.bs-docs-example {
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
-    color: #53564e;
+    color: #414141;
   }
   .nav-collapse .dropdown-menu a {
     border-bottom: 1px solid #d7dcc9;
@@ -10286,11 +10322,11 @@ form.bs-docs-example {
   }
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #ffffff;
   }
   .navbar-inverse .nav-collapse .nav > li > a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover {
-    background-color: #514d3e;
+    background-color: #f0f0f0;
+    color:#777;
   }
   .navbar-inverse .nav-collapse .nav .nav-header {
     color: #a29c86;
